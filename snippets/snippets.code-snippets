@@ -3,12 +3,12 @@
     "prefix": "cfc",
     "body": [
       "import { FC } from \"react\";",
-      "\ninterface $1Props {\n\t\n}",
+      "\ninterface ${1:MyConponent}Props {\n\t\n}",
       "\nconst $1: FC<$1Props> = ({  }) => {",
       "\treturn ($2);",
       "};",
       "\nexport default $1;\n"
     ],
-    "description": "react FC Component"
+    "description": "create FC Component"
   }
 }
