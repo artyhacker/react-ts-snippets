@@ -16,7 +16,7 @@
     "body": "const [$1, set${1/(.*)/${1:/capitalize}/}] = useState($2);",
     "description": "Declare a new state using the useState Hook"
   },
-  "useEffet Hook": {
+  "useEffect Hook": {
     "prefix": ["effect", "useEffect"],
     "body": ["useEffect(() => {", "\t$1", "}, []);"],
     "description": "useEffect Hook"
