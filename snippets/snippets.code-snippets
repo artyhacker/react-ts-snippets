@@ -10,5 +10,10 @@
       "\nexport default $1;\n"
     ],
     "description": "create FC Component"
+  },
+  "useState": {
+    "prefix": ["state", "useState"],
+    "body": "const [$1, set${1/(.*)/${1:/capitalize}/}] = useState($2);",
+    "description": "useState"
   }
 }
