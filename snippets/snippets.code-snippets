@@ -11,9 +11,9 @@
     ],
     "description": "create FC Component"
   },
-  "useState": {
+  "useState Hook": {
     "prefix": ["state", "useState"],
     "body": "const [$1, set${1/(.*)/${1:/capitalize}/}] = useState($2);",
-    "description": "useState"
+    "description": "Declare a new state using the useState Hook"
   }
 }
